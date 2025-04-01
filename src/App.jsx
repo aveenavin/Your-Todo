@@ -21,14 +21,13 @@ function App() {
 
   return (
     <div className={style.Contener}>
-      <center>
+<center>
         <AppName ></AppName>
         <Addtodo onBehavoir={handleBehavoir}></Addtodo>
         {!todoitems.length && <Message ></Message>}
         <TodoitemsComponent todoitems={todoitems} deletebtn={deleteBehvoir}></TodoitemsComponent>
+</center>
 
-
-      </center>
     </div>
 
   )

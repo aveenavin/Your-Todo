@@ -19,7 +19,7 @@ This is a simple **Todo App** built with React that allows users to add tasks wi
 ## Technologies Used
   
 - React (Functional Components, useState Hook)
-- Bootstrap (For responsive design & styling)
+- Bootstrap (For design & styling)
 - CSS (Module-based styling)
  
   
@@ -55,6 +55,7 @@ Follow these steps to run the project locally:
   
 ## Future Enhancements
  - ✅ Add task editing functionality.
+ - ✅ Improve UI RESPONSIVE.
  - ✅ Implement local storage to persist tasks.
  - ✅ Improve UI with animations.
 
