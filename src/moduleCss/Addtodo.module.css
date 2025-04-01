@@ -1,8 +1,15 @@
 
 /* for response the project */
+.box{
+  width: 100%;
+  padding: 0px 15px;
+  box-sizing: border-box;
+}
+
+
 .add {
     width: 100%;
-    padding: 12px 15px;
+    padding: 8px 15px;
     font-size: 20px;
     font-weight:bold;
     border: 3px solid black;

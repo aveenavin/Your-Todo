@@ -27,7 +27,7 @@ if (nameji.trim() === "" || dateji.trim() === "")  {
     return (
         <>
             <div className="row">
-                <div className="col-6">
+                <div className="col-6 ">
                     <input type="text" onChange={behviorName} value={nameji} placeholder=" Enter here" className={Styleji.add} /></div>
                 <div className="col-4">
                     <input type="date" onChange={behviorDate} value={dateji} className={Styleji.add} /></div>
