@@ -1,5 +1,5 @@
 import AppName from "./components/AppName"; import Addtodo from "./components/Addtodo"; import TodoitemsComponent from "./components/TodoitemsComponent"; import Message from "./components/Message";
-import { useState } from "react";
+import { useState } from "react"; import style from "./moduleCss/Contener.module.css"
 
 function App() {
 
@@ -20,7 +20,7 @@ function App() {
   }
 
   return (
-    <>
+    <div className={style.Contener}>
       <center>
         <AppName ></AppName>
         <Addtodo onBehavoir={handleBehavoir}></Addtodo>
@@ -29,7 +29,7 @@ function App() {
 
 
       </center>
-    </>
+    </div>
 
   )
 
