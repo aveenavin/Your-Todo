@@ -20,7 +20,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div >
 <center>
         <AppName ></AppName>
         <Addtodo onBehavoir={handleBehavoir}></Addtodo>
