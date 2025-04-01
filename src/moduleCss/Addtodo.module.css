@@ -19,20 +19,7 @@
   }
   
   
-  @media (min-width: 768px) {
-    input {
-      max-width: 400px;
-      padding: 10px 15px;
-      font-size: 14px;
-    }
-  }
-  
-  
-  @media (min-width: 1000px) {
-    input {
-      max-width: 400px;
-    }
-  }
+
   
 .add:hover{
     border-radius: 9px;
@@ -48,3 +35,8 @@ transition: transform 0.3s ease-out;
 .addbtn:hover{
     transform: scale(1.1);
 }
+
+
+
+
+

@@ -20,13 +20,13 @@ function App() {
   }
 
   return (
-    <div >
-<center>
+    <div style={{textAlign: "center"}}>
+
         <AppName ></AppName>
         <Addtodo onBehavoir={handleBehavoir}></Addtodo>
         {!todoitems.length && <Message ></Message>}
         <TodoitemsComponent todoitems={todoitems} deletebtn={deleteBehvoir}></TodoitemsComponent>
-</center>
+
 
     </div>
 

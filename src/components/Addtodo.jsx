@@ -1,4 +1,4 @@
-import { useState } from "react";import Styleji from "../moduleCss/Addtodo.module.css";
+import { useState } from "react"; import Styleji from "../moduleCss/Addtodo.module.css";
 
 function Addtodo({ onBehavoir }) {
 
@@ -14,10 +14,10 @@ function Addtodo({ onBehavoir }) {
 
     let passBehviorOFnameDate = function () {
 
-if (nameji.trim() === "" || dateji.trim() === "")  {
-    alert("please enter both task and date before adding")
-    return
-}
+        if (nameji.trim() === "" || dateji.trim() === "") {
+            alert("please enter both task and date before adding")
+            return
+        }
 
         onBehavoir(nameji, dateji)
         setNameji("")
@@ -26,13 +26,12 @@ if (nameji.trim() === "" || dateji.trim() === "")  {
 
     return (
         <>
-            <div className="row">
-                <div className="col-5 ">
-                    <input type="text" onChange={behviorName} value={nameji} placeholder=" Enter here" className={Styleji.add} /></div>
-                <div className="col-4">
-                    <input type="date" onChange={behviorDate} value={dateji} className={Styleji.add} /></div>
-                <div className="col-1">
-                    <button type="button" onClick={passBehviorOFnameDate} className={`btn btn-success ${Styleji.addbtn}`} >ADD</button></div>
+            <div className="container">
+                <div className="row_take">
+                    <input type="text" onChange={behviorName} value={nameji} placeholder=" Enter here" className={`col-5 ${Styleji.add}`}/>
+                   <input type="date"  onChange={behviorDate} value={dateji} className={`col-3 ${Styleji.add}`} />
+                     <button type="button"  onClick={passBehviorOFnameDate} className={` col-1  btn btn-success ${Styleji.addbtn}`} >ADD</button>
+                </div>
             </div>
         </>
     )
