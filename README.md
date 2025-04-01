@@ -14,7 +14,7 @@ This is a simple **Todo App** built with React that allows users to add tasks wi
 
  ## 🔗 Live Demo:
 
-[Click Here to View](https://aveenavin.github.io/Your_Todo)
+[Click Here to View the project](https://aveenavin.github.io/Your-Todo)
   
 ## Technologies Used
   
