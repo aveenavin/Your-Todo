@@ -5,7 +5,7 @@
 This is a simple **Todo App** built with React that allows users to add tasks with a due date. The application ensures users cannot add empty tasks and provides an intuitive UI for managing todos.
 
 ## LIVE preview
-![todo Screenshot](https://github.com/user-attachments/assets/92a42e2c-d59b-49a0-a2d5-0896b919049b)
+![todo Screenshot](https://github.com/aveenavin/Your-Todo/blob/main/Screenshot%202025-04-02%20164715.png)
 
 ![todo GIF](f59767c44d794e5e841a7941baeab33b.gif)
  
